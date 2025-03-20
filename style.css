@@ -1,0 +1,248 @@
+
+.parent{
+    background-color: rgb(255, 255, 255);
+    height: 700px;
+    width: 1500px;
+    border: 80px solid;
+    border-color: rgb(255, 255, 255);
+    display: flex;
+    transition: 1s;
+}
+.left-panel{
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    width: 40%;
+}
+.upper{
+    background-color: rgb(255, 255, 255);
+    height: 40%;
+}
+.middle{
+    background-color: rgb(255, 255, 255);
+    height: 40%;
+}
+.right-panel{
+    
+    margin-right: 0%;
+    
+    height: 100%; 
+    width: 850px;
+    border-radius: 100px;
+    transition: 0.6s;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;  
+    transition: 0.6s;
+}
+/* .right-panel:hover{
+    box-shadow: rgba(0, 0, 0, 0) 0px 54px 55px, rgba(0, 0, 0, 0) 0px -12px 30px, rgba(0, 0, 0, 0) 0px 4px 6px, rgba(0, 0, 0, 0) 0px 12px 13px, rgba(0, 0, 0, 0) 0px -3px 5px;  
+    transition: 0.6s;
+    
+} */
+
+.header{
+    background-color: rgb(4, 20, 251);
+    height: 20%;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+}
+
+.img-1{
+    margin-top: 5px;
+    margin-left: 5px;
+    height: 16px;   
+    
+}
+.img-2{
+    margin-top: 100px;
+    margin-left: 5px;
+    height: 40px;
+    width: 260px;
+}
+.img-3{
+    margin-top: 20px;
+    margin-left: 5px;
+    height: 23px;
+}
+.h6{
+    
+    padding-top: 10px;
+    margin-left: 5px;
+    padding-bottom: 10px;
+}
+.login{
+    width: 450px;
+
+}
+.forgot{
+    margin-left: 300px;
+    margin-top: 3px;
+}
+.one{
+    background-color: blue;
+    color: white;
+    margin-top: 5px;
+    margin-left: 70px;
+    width: 120px;
+    height: 50px;
+    border-radius: 40px;
+    border-style: hidden;
+    
+    
+}
+.one:hover{
+    background-color: hsla(242, 100%, 49%, 0.408);
+}
+#two{
+    background-color: blue;
+    color: white;
+    margin-top: -20px;
+    width: 120px;
+    height: 50px;
+    border-radius: 40px;
+    border-style: hidden;
+
+}
+.two:hover{
+    background-color: hsla(242, 100%, 49%, 0.408);
+
+}
+.facebook{
+    margin-left: 70px;
+    margin-top: 15px;
+}
+.instagram{
+    margin-left: 200px;
+    margin-top: -22px;
+}
+.twitter{
+    margin-left: 330px;
+    margin-top: -25px;
+}
+.header{
+    padding: 30px;
+    
+}
+.ho1{
+    margin-left: 150px ;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(255, 251, 251);
+    border-style: none;
+
+    
+
+}
+.ho1:hover{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    transition-duration: 0.8s;
+    border-bottom: solid 1px;
+    background-color: rgba(2, 225, 255, 0.549);
+    
+}
+.ho2{
+    margin-left: 50px;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(255, 251, 251);
+    border-style: none;
+}
+.ho2:hover{
+  
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    transition-duration: 0.8s;
+    border-bottom: solid 1px;
+    background-color: rgba(2, 225, 255, 0.549);
+}
+.ho3{
+    margin-left: 50px;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(255, 251, 251);
+    border-style: none;
+}
+.ho3:hover{
+    
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    transition-duration: 0.8s;
+    border-bottom: solid 1px;
+    background-color: rgba(2, 225, 255, 0.549);
+}
+.ho4{
+    margin-left: 50px;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(255, 251, 251);
+    border-style: none;
+}
+.ho4:hover{
+    
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    transition-duration: 0.8s;
+    border-bottom: solid 1px;
+    background-color: rgba(2, 225, 255, 0.549);
+}
+.img-car{
+    height: 350px;
+    width: 550px;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+.idea{
+    position: absolute;
+    height: 200px;
+    width: 220px;
+}
+.idea-text{
+    position: absolute;
+    height: 160px;
+    width: 150px;
+    font-size: 15px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+/* .loader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(rgb(0, 255, 234),rgb(49, 49, 253));
+    transition: opacity 6s, visibility 6s;
+}
+.loader-hidden{
+    
+    opacity: 0%;
+    visibility: hidden;
+}
+
+.progress-bar {
+    width: 80%;
+    max-width: 400px;
+    height: 20px;
+    background-color: #e0e0e06a;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+
+.progress {
+    width: 0;
+    height: 100%;
+    background-color: #ffffffd8;
+    animation: fill 4s ease infinite;
+
+
+}
+
+@keyframes fill {
+
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+} */
+
+
+
+
+

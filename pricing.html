@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vehicle Pricing</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <!-- Custom CSS for animations and background -->
+    <style>
+        body {
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: #fff;
+        }
+        table {
+            margin-top: 50px;
+        }
+        th, td {
+            text-align: center;
+            padding: 20px;
+            font-size: 1.2em;
+        }
+        th {
+            font-weight: bold;
+        }
+        td {
+            transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
+        }
+        td:hover {
+            transform: scale(1.1);
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+        .fa-icon {
+            font-size: 1.5em;
+            color: #ffc107;
+            margin-bottom: 10px;
+        }
+
+        .container{
+            width: 100%;
+            max-width: 1300px;
+            height: 100vh;
+            max-height: 600px;
+            background-image: linear-gradient(rgb(0, 255, 234), rgb(49, 49, 253));
+            border-radius: 20px;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+                        rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            margin-top: 100px;
+            padding: 20px;
+            transition: transform 0.6s ease, box-shadow 0.6s ease;
+        }
+
+        .container:hover {
+            transform: scale(1.05);
+            box-shadow: rgba(50, 50, 93, 0.4) 0px 40px 80px -16px inset,
+                        rgba(0, 0, 0, 0.4) 0px 24px 48px -24px inset;
+        }
+
+        .container h1{
+          color: #5a4646;
+          font-size: 3rem;
+        }
+        .container table{
+          margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center my-5">Vehicle Parking Pricing</h1>
+        <table class="table table-light table-bordered">
+            <thead>
+                <tr>
+                    <th>Vehicle Type</th>
+                    <th>1 Hour</th>
+                    <th>2 Hours</th>
+                    <th>3 Hours</th>
+                    <th>4+ Hours</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <i class="fas fa-bicycle fa-icon"></i><br>Bicycle
+                    </td>
+                    <td>RS.10</td>
+                    <td>RS.20</td>
+                    <td>RS.30</td>
+                    <td>RS.50</td>
+                </tr>
+                <tr>
+                    <td>
+                        <i class="fas fa-car-side fa-icon"></i><br>Mini
+                    </td>
+                    <td>RS.20</td>
+                    <td>RS.40</td>
+                    <td>RS.60</td>
+                    <td>RS.100</td>
+                </tr>
+                <tr>
+                    <td>
+                        <i class="fas fa-car fa-icon"></i><br>Sedan
+                    </td>
+                    <td>RS.30</td>
+                    <td>RS.60</td>
+                    <td>RS.90</td>
+                    <td>RS.150</td>
+                </tr>
+                <tr>
+                    <td>
+                        <i class="fas fa-truck-monster fa-icon"></i><br>SUV
+                    </td>
+                    <td>RS.40</td>
+                    <td>RS.80</td>
+                    <td>RS.120</td>
+                    <td>RS.200</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+Methodology:
+
+1. Requirement Analysis and Design:
+
+Our main Objective is to Understand the specific needs of the parking allotment system and design a user-friendly interface.
+
+2. Tasks:
+
+Gather and analyze requirements from stakeholders example:  parking lot managers and users
+
+Define the user roles like admin, registered users and to features each role requires booking slots, viewing availability and payment integration
+
+
+3.  Front-End Development
+
+Develop a responsive and intuitive front-end for the parking allotment system with wireframes and prototypes using Figma to visualize the user interface (UI) and user experience (UX) flow
+
+Use HTML and CSS to build the basic structure and styling of the web pages
+
+Implement responsive design using Bootstrap to ensure the website functions well on various devices and screen sizes
+
+4. Back-End Development
+
+Develop RESTful APIs for communication between the front-end and back-end, ensuring secure data transmission
+
+Use SQL for relational database operations (ex: user data, booking records) and MongoDB for managing non-relational data (ex: session data, logs)
+
+At last,
+
+5. Implementation for solving the selected problem statement:
+
+Our problem statement is Online Chatbot based ticketing system and we are making an website for parking slot allotments for domestic vehicles to ensure that drivers don't waste time and energy searching for parking and don't create hassle on roads that cause huge traffics.
+
+So we will implement our ticketing chatbot that will work like Ticket counter for buying a slot whenever you'll travel to a another city for any reason You can visit our site and you can manually book your slot or you can just hover over our chatbot and ask him to book a slot for your vehicle in any state any city in India.

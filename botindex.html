@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parking Assistant Chatbot</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="chatContainer" class="chat-container hidden">
+        <div class="chat-header">
+            <img src="img/chatbot-logo.png" alt="Chatbot Logo" class="chatbot-logo">
+            <h1>Parking Assistant</h1>
+        </div>
+        <div id="messages" class="chat-box"></div>
+        <div class="input-container">
+            <input type="text" id="userInput" placeholder="Type your message here..." autofocus>
+            <button id="sendBtn">Ask</button>
+        </div>
+    </div>
+
+    <script class="answers" src="chatbot.js" ></script>
+</body>
+</html>
